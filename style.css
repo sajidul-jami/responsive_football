@@ -72,7 +72,7 @@ article img{
 .extra{
     width: 70%;
     display: block;
-    margin: auto auto 70px auto;
+    margin: auto auto 30px auto;
     text-align: center;
     border: 1px solid gray;
     border-radius: 10px;
@@ -104,4 +104,93 @@ footer>div{
 }
 .last span{
     margin-right: 50px;
+}
+
+
+/* Mesia Quaries... */
+
+
+/* mobile divices */
+
+@media only screen and (max-width:688px) {
+    header{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 50px 10px 10px 50px;
+        justify-content: center;
+    }
+    .banner{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .banner img{
+        width: 90%;
+        height: 100%;
+    }
+    #ball{
+        height: 70px;
+        width: 70px;
+        position: relative;
+        bottom: 250px;
+        left: 5px;
+        transition: transform 5s linear;
+    }
+    .banner p{
+        display: none;
+    }
+    .first_section{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    .logo img{
+        width: 90%;
+    }
+    .extra v{
+        width: 50%;
+        height: 50%;
+
+    }
+}
+
+/* tablate */
+
+@media only screen and (max-width:688px){
+    header{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 50px 10px 10px 50px;
+        justify-content: center;
+    }
+    .banner{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .banner img{
+        width: 90%;
+        height: 100%;
+    }
+    #ball{
+        display: none;
+        height: 70px;
+        width: 70px;
+        position: relative;
+        bottom: 250px;
+        left: 5px;
+        transition: transform 5s linear;
+    }
+    .banner p{
+        display: none;
+    }
+    .first_section{
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .logo img{
+        width: 90%;
+    }
+
 }
