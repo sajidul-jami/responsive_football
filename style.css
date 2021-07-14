@@ -6,16 +6,17 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color:rgb(45, 37, 160);
-    padding: 150px;
+    padding: 150px 150px 50px 150px;
 }
 header h1{
     font-size: 55px;
-    margin-bottom: 37px;}
+    margin-bottom: 37px;
+}
 .textandbutton{
     display: block;
     color: white;
     width: 400px;
-    margin: auto;
+    margin: 50px auto;
 }
 .textandbutton a{
     background-color:#E02C6D;
@@ -36,6 +37,11 @@ header h1{
 }
 .textandbutton a:hover{
     background-color: #a74066;
+}
+.banner{
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 .banner img{
     width: 556.01px;
@@ -62,6 +68,20 @@ article img{
     border-radius: 15px;
     
 }
+
+.extra{
+    width: 70%;
+    display: block;
+    margin: auto auto 70px auto;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+}
+.extra iframe{
+    width: 853px; height: 480px;
+    border-radius: 10px;
+}
 footer{
     display: block;
 }
@@ -78,4 +98,10 @@ footer>div{
 .social_icon img{
     width: 32px;
     margin: 0px 8px;
+}
+.last{
+    color: gray;
+}
+.last span{
+    margin-right: 50px;
 }
