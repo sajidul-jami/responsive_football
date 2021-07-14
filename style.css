@@ -3,21 +3,40 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 header{
-    display: flex;
-    background-color:rgb(45, 37, 160);
-    padding: 100px;
-}
-.textandbutton{
     display: grid;
-    grid-template-columns: 1fr;
-    color: white;
-    width: 490px;
-    align-items: center;
-    grid-row-gap: 0px;
+    grid-template-columns: repeat(2, 1fr);
+    background-color:rgb(45, 37, 160);
+    padding: 150px;
 }
-i.fas{
-    border: 1px solid red;
-  }
+header h1{
+    font-size: 55px;
+    margin-bottom: 37px;}
+.textandbutton{
+    display: block;
+    color: white;
+    width: 400px;
+    margin: auto;
+}
+.textandbutton a{
+    background-color:#E02C6D;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+#ball{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    bottom: 390px;
+    left: 5px;
+    transition: transform 5s linear;
+}
+#ball:hover{
+    transform: rotate(360deg);
+}
+.textandbutton a:hover{
+    background-color: #a74066;
+}
 .banner img{
     width: 556.01px;
     height: 438px;
